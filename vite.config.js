@@ -5,7 +5,7 @@ import svgr from 'vite-plugin-svgr';
 const isProduction = process.env.NODE_ENV === 'production';
 
 export default defineConfig({
-  base: isProduction ? '/portfolio/' : '/',
+  base: isProduction ? '/portifolio/' : '/',
   plugins: [svgr(), react()],
   server: {
     open: true,
