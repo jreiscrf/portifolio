@@ -6,7 +6,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const App = () => {
   return (
-    <Router basename={isProduction ? '/portfolio' : '/'}>
+    <Router basename={isProduction ? '/portifolio' : '/'}>
       <RootRoutes />
     </Router>
   );
