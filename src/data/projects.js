@@ -1,3 +1,8 @@
+import entregador from '../assets/entregador.png';
+import gestao from '../assets/gestao.png';
+import web from '../assets/web.png';
+import cheap_app from '../assets/cheap_app.jpg';
+
 const data = [
   {
     id: '1',
@@ -5,7 +10,7 @@ const data = [
     description:
       'Desenvolvi um aplicativo de compras com entrega rápida, disponível para iOS e Android, projetado para oferecer uma experiência de compra intuitiva e eficiente.',
     image: {
-      src: 'https://scontent.fsdu7-1.fna.fbcdn.net/v/t39.30808-6/306997992_613837383688535_7239765736714941557_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YPq-t8fORqYQ7kNvgEw12Oc&_nc_zt=23&_nc_ht=scontent.fsdu7-1.fna&_nc_gid=A_NAD6sW6Tkj21xYgEQOo7O&oh=00_AYDE3lxxooqOqf5nx01LpN5nLmVqrOrRQ6YmkYODJ1gO4Q&oe=6718F811',
+      src: cheap_app,
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
@@ -29,7 +34,7 @@ const data = [
     description:
       'O CheapFood Entregador é um aplicativo projetado para otimizar a experiência dos entregadores de refeições. Com uma interface intuitiva, os entregadores podem receber e gerenciar pedidos com facilidade, rastrear rotas em tempo real e se comunicar diretamente com os clientes.',
     image: {
-      src: 'https://cdn.discordapp.com/attachments/1293038046366666816/1297036073532391515/Design_sem_nome.png?ex=67147679&is=671324f9&hm=46975c46d51c9322ac9b8b8ac961e14994ccb0aa0840cbc3f97c1014399fc96a&',
+      src: entregador,
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
@@ -54,7 +59,7 @@ const data = [
     description:
       'O Pontotel Gestão permite que você registre, acompanhe e maximize seus pontos de forma fácil e eficiente. Os usuários podem visualizar o saldo de pontos em tempo real, receber notificações sobre oportunidades de resgate e acessar análises detalhadas sobre suas atividades.',
     image: {
-      src: 'https://media.discordapp.net/attachments/1293038046366666816/1297037429236306033/Design_sem_nome_1.png?ex=671477bc&is=6713263c&hm=3abf078eac5a327962980557c12956b01b33f7a055e3ac537f454ea2acae01c5&=&format=webp&quality=lossless&width=629&height=629',
+      src: gestao,
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
@@ -160,7 +165,7 @@ const data = [
     description:
       'Desenvolvi um site de psicologia com foco em criar um ambiente acolhedor e intuitivo para os usuários. A plataforma permite agendamentos online.',
     image: {
-      src: 'https://media.discordapp.net/attachments/1293038046366666816/1297040590436958208/Design_sem_nome_2.png?ex=67147aae&is=6713292e&hm=3d0936e5427c84ffc8622f7d843ee14d4a1f85d16e383c17d2eb84d1ada590e5&=&format=webp&quality=lossless&width=629&height=629',
+      src: web,
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
