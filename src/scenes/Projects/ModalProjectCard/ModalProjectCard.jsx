@@ -60,7 +60,7 @@ const ModalProjectCard = () => {
               href={links.repo}
               target="_blank"
             >
-              <BiLinkExternal /> &nbsp; Know more
+              <BiLinkExternal /> &nbsp; Saiba mais
             </Button>
           )}
         </div>
