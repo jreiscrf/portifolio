@@ -9,17 +9,17 @@ import { routes as r } from '../../../routes/RootRoutes';
 import s from './NavLinks.module.scss';
 
 const scenes = {
-  Home: () => import('../../../scenes/Home/Home'),
-  About: () => import('../../../scenes/About/About'),
-  Projects: () => import('../../../scenes/Projects/Projects'),
-  Resume: () => import('../../../scenes/Resume/Resume'),
+  Inicio: () => import('../../../scenes/Home/Home'),
+  Sobre: () => import('../../../scenes/About/About'),
+  Projetos: () => import('../../../scenes/Projects/Projects'),
+  Resumo: () => import('../../../scenes/Resume/Resume'),
 };
 
 const icons = {
-  Home: <AiOutlineHome />,
-  About: <AiOutlineUser />,
-  Projects: <AiOutlineFundProjectionScreen />,
-  Resume: <CgFileDocument />,
+  Inicio: <AiOutlineHome />,
+  Sobre: <AiOutlineUser />,
+  Projetos: <AiOutlineFundProjectionScreen />,
+  Resumo: <CgFileDocument />,
 };
 
 const Link = (props) => {

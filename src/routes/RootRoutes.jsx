@@ -4,18 +4,18 @@ import Preloader from '../components/UIElements/Preloader/Preloader';
 import ModalProjectCard from '../scenes/Projects/ModalProjectCard/ModalProjectCard';
 
 export const routes = {
-  Home: '/',
-  About: '/about',
-  Projects: '/projects',
+  Inicio: '/',
+  Sobre: '/about',
+  Projetos: '/projects',
   Project: '/project/:id',
-  Resume: '/resume',
+  Resumo: '/resume',
 };
 
 const scenes = {
-  Home: lazy(() => import('../scenes/Home/Home')),
-  About: lazy(() => import('../scenes/About/About')),
-  Projects: lazy(() => import('../scenes/Projects/Projects')),
-  Resume: lazy(() => import('../scenes/Resume/Resume')),
+  Inicio: lazy(() => import('../scenes/Home/Home')),
+  Sobre: lazy(() => import('../scenes/About/About')),
+  Projetos: lazy(() => import('../scenes/Projects/Projects')),
+  Resumo: lazy(() => import('../scenes/Resume/Resume')),
 };
 
 function LazyScene({ name }) {
@@ -35,20 +35,20 @@ function RootRoutes() {
     <>
       <Routes location={background || location}>
         <Route
-          path={routes.Home}
-          element={<LazyScene name="Home" />}
+          path={routes.Inicio}
+          element={<LazyScene name="Inicio" />}
         />
         <Route
-          path={routes.About}
-          element={<LazyScene name="About" />}
+          path={routes.Sobre}
+          element={<LazyScene name="Sobre" />}
         />
         <Route
-          path={routes.Projects}
-          element={<LazyScene name="Projects" />}
+          path={routes.Projetos}
+          element={<LazyScene name="Projetos" />}
         />
         <Route
-          path={routes.Resume}
-          element={<LazyScene name="Resume" />}
+          path={routes.Resumo}
+          element={<LazyScene name="Resumo" />}
         />
         <Route
           /*Modal*/ path={routes.Project}

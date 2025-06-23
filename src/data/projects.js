@@ -2,6 +2,7 @@ import entregador from '../assets/entregador.png';
 import gestao from '../assets/gestao.png';
 import web from '../assets/web.png';
 import cheap_app from '../assets/cheap_app.jpg';
+import juuntos from '../assets/juuntos.png';
 
 const data = [
   {
@@ -173,6 +174,36 @@ const data = [
       repo: 'https://lurikopsicologa.com/',
     },
     technologies: ['#html', '#css', '#wordpress', '#scss'],
+  },
+  {
+    id: '7',
+    title: 'Juuntos',
+    description:
+      'Plataforma que facilita o uso de benefícios corporativos na compra de medicamentos e outros produtos medicinais.',
+    image: {
+      src: juuntos,
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://play.google.com/store/apps/details?id=com.juuntos.farmacia',
+    },
+    technologies: [
+      '#typescript',
+      '#expo',
+      '#react-native',
+      '#react-navigation',
+      '#react-native-reanimated',
+      '#payments',
+      '#lottie',
+      '#firebase',
+      '#zustand',
+      '#react-native-svg',
+      '#expo-sqlite',
+      '#expo-image-manipulator',
+      '#redux',
+      '#local-authentication',
+    ],
   },
 ];
 
